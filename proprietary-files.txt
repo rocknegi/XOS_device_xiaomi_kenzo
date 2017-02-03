@@ -562,9 +562,33 @@ bin/consumerird
 lib64/hw/consumerir.msm8952.so
 lib/hw/consumerir.msm8952.so
 
+<<<<<<< HEAD
 # Display calibration data
 etc/pp_calib_data_sharp_r63315_1080p_video_mode_dsi_panel.xml
 
+<<<<<<< HEAD
+=======
+# DPM
+bin/dpmd
+etc/dpm/dpm.conf
+etc/dpm/nsrm/NsrmConfiguration.xml
+etc/permissions/com.qti.dpmframework.xml
+etc/permissions/dpmapi.xml
+framework/com.qti.dpmframework.jar
+framework/dpmapi.jar
+framework/tcmclient.jar
+vendor/lib64/libdpmctmgr.so
+vendor/lib64/libdpmfdmgr.so
+vendor/lib64/libdpmframework.so
+vendor/lib64/libdpmnsrm.so
+vendor/lib64/libdpmtcm.so
+vendor/lib/libdpmctmgr.so
+vendor/lib/libdpmfdmgr.so
+vendor/lib/libdpmframework.so
+vendor/lib/libdpmnsrm.so
+vendor/lib/libdpmtcm.so
+=======
+>>>>>>> bf072ed... kenzo: remove Sharp display calibration data
 # DPM - from Mi Max
 bin/dpmd|845e7a704770e5c2362dea8056238ff265fbe867
 etc/dpm/dpm.conf|4044e359cfde5a4e8c1ef31a684b3009bca31058
@@ -584,6 +608,10 @@ vendor/lib/libdpmfdmgr.so|ab5fee12765bbe261eaf6dc5c2014abfa4db80e9
 vendor/lib/libdpmframework.so|532cb27a9c9a7920f47a096403d04301cd115f03
 vendor/lib/libdpmnsrm.so|1c10712d856628f607e6f1bfedc446bc7a79b1e9
 vendor/lib/libdpmtcm.so|93aa9fd3c61283102335199b44ca32334010dc84
+<<<<<<< HEAD
+=======
+>>>>>>> 762be11... kenzo: remove Sharp display calibration data
+>>>>>>> bf072ed... kenzo: remove Sharp display calibration data
 
 # DRM
 bin/qseecomd
